@@ -1,0 +1,6 @@
+---
+Name: injected-redux-poc
+---
+SilverStripe\Admin\LeftAndMain:
+  extra_requirements_javascript:
+    - 'redux-pocs/client/dist/js/main.js'
