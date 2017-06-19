@@ -16,7 +16,7 @@ export default (originalReducer) => () => (state, { type, payload }) => {
         payload: {
           breadcrumbs: payload.breadcrumbs.map((crumb) => (
             (crumb.text === 'Files')
-              ? { ...crumb, text: 'Custom Files BUG' }
+              ? { ...crumb, text: 'Custom Files' }
               : crumb
           )),
         },

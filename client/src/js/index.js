@@ -4,7 +4,7 @@ import BlockBadges from './BlockBadges';
 import LogoToBreadcrumbs from './LogoToBreadcrumbs';
 import RenameFilesCrumb from './RenameFilesCrumb';
 
-Injector.transform('redux-poc', (update) => {
+Injector.transform('reduxPOC', (update) => {
   update.reducer('assetAdmin', GenericPreviewImage);
   update.reducer('assetAdmin', BlockBadges);
   update.reducer('breadcrumbs', RenameFilesCrumb);
